@@ -20,7 +20,7 @@ An example:
 - It _just_ works good enough to convert at least the presentation above,
   haven't tried with any others yet
 - Expects some whitespace exatly where I put it in my markdown, and some is actually
-  needed by `pandoc` ¯\_(ツ)_/¯
+  needed by `pandoc` `¯\_(ツ)_/¯`
 - I don't recommend you use this, to be fair
 
 ## How does it work
