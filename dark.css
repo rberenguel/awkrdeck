@@ -1,0 +1,196 @@
+<style>
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+    color: #222; }
+
+.reveal {
+    font-family: "Inter", Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-weight: 700;
+    background: rgb(40,42,45);
+}
+
+.reveal * {
+    font-family: "Inter", Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+
+.reveal strong {
+    color: rgb(223,142,200);
+}
+
+.reveal em {
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.reveal h1, .reveal h2, .reveal h3, h4, h5 {
+    transform: scaleX(0.7);
+    text-transform: uppercase;
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+.reveal ul {
+    width: 100%;
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+
+.reveal ul li {
+    transform: scaleX(0.7);
+        list-style:none;
+        margin-bottom:6px;
+        text-transform: uppercase;
+}
+
+li:before {
+    color: rgb(223,142,200);
+    content: '> ';
+}
+
+.reveal .slides {
+    height: 100% !important;
+    top: auto !important;
+    margin-top: auto !important;
+    display: table;
+}
+
+.reveal .slides>section {
+    min-height: 90% !important;
+    top: auto !important;
+}
+
+.reveal .slides>section>section {
+    min-height: 100% !important;
+}
+
+.centered-float {
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    top: calc(10%);
+    left: 0;
+    right: 0;
+    margin: 0 0;
+}
+
+.right-float {
+    display: table;
+    width: 50%;
+    float: right;
+    height: 700px;
+}
+
+.full {
+    display: table;
+    height: 700px;
+    width: 100%;
+}
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    transform: scaleX(0.7);
+    text-align: center;
+}
+
+.left-float {
+    display: table;
+    width: 50%;
+    float: left;
+    height: 700px;
+}
+
+.overlay {
+    background-blend-mode: darken;
+    background-color: rgba(40, 40, 40, 0.6);
+}
+
+.two-image {
+    width: 49%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.three-image {
+    width: 30%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.four-image {
+    width: 24%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.five-image {
+    width: 19%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+
+.fit-image {
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.half-image-cover {
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-image-fit {
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+    background-position: calc(50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+</style>
